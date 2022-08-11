@@ -6,4 +6,3 @@ local banlist = {217401055} -- Bans are to be done by the user id, as the player
 		if table.find(banlist,plr.UserId) then
 			plr:Kick("You have been banned from Aspect Studio games.\nBans are appealable in our communications server.")
 		end
-		wait(30)
